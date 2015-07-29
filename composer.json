@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Fooman\\": ["generated/Fooman/", "tests/app/Fooman/"],
+            "Fooman\\": ["generated/Fooman/", "tests/app/Fooman/"]
         }
     }
 }
