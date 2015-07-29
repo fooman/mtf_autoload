@@ -1,0 +1,16 @@
+{
+    "name": "fooman/mtf_autoload",
+    "type": "library",
+    "description": "Add Fooman autoloading info for Magento Testing Framework",
+    "homepage": "http://store.fooman.co.nz/",
+    "license": "OSL-3.0",
+    "require": {
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Fooman\\": ["generated/Fooman/", "tests/app/Fooman/"],
+        }
+    }
+}
